@@ -1,0 +1,167 @@
+{
+  "brand": {
+    "name": "ペットサロン もふもふ日和",
+    "shortName": "もふもふ日和",
+    "tagline": "毎日に、もふもふ日和を。"
+  },
+  "nav": [
+    { "label": "ABOUT", "target": "about" },
+    { "label": "TRIMMING", "target": "trimming" },
+    { "label": "HOTEL", "target": "hotel" },
+    { "label": "GALLERY", "target": "gallery" },
+    { "label": "FLOW", "target": "flow" },
+    { "label": "ACCESS", "target": "access" }
+  ],
+  "hero": {
+    "eyebrow": "PET SALON / DOG & CAT",
+    "description": "トリミングも、お泊まりも。わんちゃん・ねこちゃんが安心して過ごせる、もうひとつのおうち。",
+    "image": {
+      "src": "/images/hero-salon.webp",
+      "alt": "自然光の入るサロンで穏やかに過ごす犬"
+    }
+  },
+  "about": {
+    "title": "もふもふ日和について",
+    "eyebrow": "ABOUT US",
+    "body": "その子のペースを大切にしながら、丁寧なカウンセリングと清潔な環境でお迎えします。無理な施術はせず、飼い主さまにも過ごし方が伝わるように、一頭一頭の時間を大切にします。",
+    "image": {
+      "src": "/images/about-calm-dog.webp",
+      "alt": "木の家具と植物のあるサロンでくつろぐ犬"
+    },
+    "principles": [
+      {
+        "title": "その子のペースで",
+        "body": "表情や様子を見ながら、無理のないリズムで進めます。"
+      },
+      {
+        "title": "丁寧なカウンセリング",
+        "body": "体調や毛質、いつもの過ごし方までお聞きします。"
+      },
+      {
+        "title": "清潔で落ち着く環境",
+        "body": "空間と道具を整え、安心して過ごせる時間をつくります。"
+      }
+    ]
+  },
+  "trimming": {
+    "title": "TRIMMING",
+    "heading": "心地よく整える、いつものお手入れ",
+    "eyebrow": "TRIMMING MENU",
+    "intro": "毛質や体調、その日の気分まで見ながら、心地よく整えます。仕上がりのご希望も、カウンセリングでゆっくりお聞かせください。",
+    "rates": [
+      { "target": "小型犬", "menu": "シャンプーコース", "price": "¥4,500〜" },
+      { "target": "小型犬", "menu": "カットコース", "price": "¥6,500〜" },
+      { "target": "中型犬", "menu": "シャンプーコース", "price": "¥6,000〜" },
+      { "target": "中型犬", "menu": "カットコース", "price": "¥8,500〜" },
+      { "target": "猫", "menu": "シャンプーコース", "price": "¥6,000〜" },
+      { "target": "猫", "menu": "カットコース", "price": "¥8,000〜" }
+    ],
+    "note": "犬種・毛量・被毛の状態・施術内容により料金が変わります。",
+    "options": ["炭酸泉", "保湿ケア", "肉球ケア", "歯みがき"]
+  },
+  "hotel": {
+    "title": "PET HOTEL",
+    "heading": "おうちの続きを過ごせる場所",
+    "eyebrow": "PET HOTEL",
+    "intro": "おうちで過ごすように、食事や散歩のリズムをできるだけ崩さずお預かりします。個々の性格に合わせて、落ち着ける場所と時間を用意します。",
+    "image": {
+      "src": "/images/hotel-cat-room.webp",
+      "alt": "明るい室内の個別スペースで過ごす猫"
+    },
+    "rates": [
+      { "target": "小型犬", "day": "¥2,200〜", "night": "¥4,400〜" },
+      { "target": "中型犬", "day": "¥2,750〜", "night": "¥5,500〜" },
+      { "target": "猫", "day": "¥1,650〜", "night": "¥3,300〜" }
+    ],
+    "care": ["日帰り", "1泊", "長期預かり相談可能", "食事", "散歩", "個別スペース", "猫専用スペース"]
+  },
+  "gallery": [
+    {
+      "src": "/images/hero-salon.webp",
+      "alt": "トリミングを終えた小型犬",
+      "caption": "after grooming"
+    },
+    {
+      "src": "/images/hotel-cat-room.webp",
+      "alt": "サロンの窓辺でくつろぐ猫",
+      "caption": "slow afternoon"
+    },
+    {
+      "src": "/images/gallery-salon-interior.webp",
+      "alt": "木の家具がある清潔なサロン内",
+      "caption": "our quiet room"
+    },
+    {
+      "src": "/images/gallery-dog-brush.webp",
+      "alt": "ブラッシングを受ける犬",
+      "caption": "gentle care"
+    },
+    {
+      "src": "/images/gallery-cat-towel.webp",
+      "alt": "タオルに包まれて休む猫",
+      "caption": "a little rest"
+    },
+    {
+      "src": "/images/about-calm-dog.webp",
+      "alt": "植物のそばで過ごす犬",
+      "caption": "a warm welcome"
+    }
+  ],
+  "flow": [
+    {
+      "number": "01",
+      "title": "ご予約",
+      "body": "LINEまたはお電話でご希望をお聞かせください。"
+    },
+    {
+      "number": "02",
+      "title": "ご来店",
+      "body": "ご予約の日時に、ゆっくりお越しください。"
+    },
+    {
+      "number": "03",
+      "title": "カウンセリング",
+      "body": "体調や過ごし方、仕上がりのご希望を確認します。"
+    },
+    {
+      "number": "04",
+      "title": "トリミング／お預かり",
+      "body": "その子のペースを見ながら、丁寧にお世話します。"
+    },
+    {
+      "number": "05",
+      "title": "お迎え",
+      "body": "今日の様子とお手入れ内容をお伝えします。"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026.09.01",
+      "title": "秋の保湿ケアキャンペーンのお知らせ"
+    },
+    {
+      "date": "2026.08.20",
+      "title": "ペットホテルのご予約について"
+    },
+    {
+      "date": "2026.08.01",
+      "title": "ホームページをオープンしました"
+    }
+  ],
+  "access": {
+    "address": "〒158-0094 東京都世田谷区玉川 1-2-3 もふもふテラス 1F",
+    "hours": "9:00〜18:00",
+    "closed": "水曜日",
+    "phone": "03-0000-0000",
+    "parking": "店舗前に2台分（デモ情報）",
+    "access": "東急田園都市線「二子玉川駅」から徒歩8分（デモ情報）",
+    "notice": "こちらはデモサイト用の仮情報です。実店舗の情報に差し替えてご利用ください。"
+  },
+  "reservation": {
+    "lineLabel": "LINEで予約する",
+    "lineHref": "https://line.me/",
+    "phoneLabel": "電話でお問い合わせ",
+    "phoneHref": "tel:03-0000-0000",
+    "notice": "LINEリンク・店舗情報はデモ用です。"
+  }
+}
