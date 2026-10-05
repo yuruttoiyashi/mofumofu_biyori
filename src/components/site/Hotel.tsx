@@ -15,6 +15,7 @@ export function Hotel() {
             <SectionHeading
               eyebrow={siteContent.hotel.eyebrow}
               title={siteContent.hotel.heading}
+              titleLines={['おうちの続きを', '過ごせる場所']}
               intro={siteContent.hotel.intro}
               id="hotel-title"
             />

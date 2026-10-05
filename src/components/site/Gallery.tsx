@@ -9,7 +9,9 @@ export function Gallery() {
         <SectionHeading
           eyebrow="GALLERY"
           title="サロンで過ごす、やさしい時間"
+          titleLines={['サロンで過ごす、', 'やさしい時間']}
           intro="仕上がりだけでなく、過ごしている時間も心地よく。もふもふ日和の日々をご紹介します。"
+          introLines={['仕上がりだけでなく、過ごしている時間も心地よく。', 'もふもふ日和の日々をご紹介します。']}
           align="center"
           id="gallery-title"
         />

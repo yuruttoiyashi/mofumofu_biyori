@@ -2,6 +2,8 @@ import siteContent from '../../data/siteContent.json';
 import { PhotoFrame } from './PhotoFrame';
 
 export function Hero() {
+  const taglineLines = siteContent.brand.tagline.split(/(?<=、)/u);
+
   return (
     <section className="hero" aria-labelledby="hero-title">
       <div className="hero__inner site-container">
@@ -11,7 +13,9 @@ export function Hero() {
         <div className="hero__content">
           <p className="hero__brand-name">{siteContent.brand.name}</p>
           <p className="hero__eyebrow">{siteContent.hero.eyebrow}</p>
-          <h1 id="hero-title">{siteContent.brand.tagline}</h1>
+          <h1 id="hero-title" aria-label={siteContent.brand.tagline}>
+            {taglineLines.map((line) => <span className="hero__title-line" key={line}>{line}</span>)}
+          </h1>
           <p className="hero__description">{siteContent.hero.description}</p>
           <div className="hero__actions">
             <a className="button button--primary" href="#trimming">

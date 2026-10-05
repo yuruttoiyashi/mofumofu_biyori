@@ -324,7 +324,7 @@ main {
 
 .hero__inner {
   display: grid;
-  grid-template-columns: minmax(0, 1.24fr) minmax(320px, 0.76fr);
+  grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
   min-height: min(760px, calc(100vh - 82px));
 }
 
@@ -339,10 +339,12 @@ main {
 }
 
 .hero__content {
+  min-width: 0;
+  container-type: inline-size;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(3.5rem, 8vw, 7.5rem) clamp(2rem, 6vw, 6.5rem) clamp(4rem, 8vw, 7.5rem) clamp(2rem, 5vw, 5.5rem);
+  padding: clamp(3.5rem, 8vw, 7.5rem) clamp(2rem, 4vw, 4rem) clamp(4rem, 8vw, 7.5rem);
   background: var(--color-ivory);
 }
 
@@ -379,16 +381,21 @@ main {
 }
 
 .hero h1 {
-  max-width: 10ch;
+  width: 100%;
   padding: 0;
   margin: 0;
   color: var(--color-brown);
   font-family: var(--display-font);
-  font-size: clamp(2.45rem, 4.2vw, 4rem);
+  font-size: clamp(1.6rem, 3vw, 3.2rem);
+  font-size: clamp(1.6rem, 10.5cqw, 3.2rem);
   font-weight: 400;
   line-height: 1.42;
-  letter-spacing: 0.06em;
-  text-wrap: balance;
+  letter-spacing: 0.04em;
+}
+
+.hero__title-line {
+  display: block;
+  white-space: nowrap;
 }
 
 .hero__description {
@@ -397,6 +404,9 @@ main {
   color: var(--color-muted);
   font-size: 0.98rem;
   line-height: 2;
+  text-wrap: balance;
+  text-wrap: pretty;
+  line-break: strict;
 }
 
 .hero__actions {
@@ -525,6 +535,19 @@ main {
   color: var(--color-muted);
   font-size: 0.96rem;
   line-height: 2;
+  text-wrap: balance;
+  text-wrap: pretty;
+  line-break: strict;
+}
+
+.section-heading__title-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.section-heading__intro-line {
+  display: block;
+  max-width: 100%;
 }
 
 .section-heading--center .section-heading__intro {
@@ -1331,11 +1354,6 @@ main {
     padding: 3.5rem var(--container-gutter, 0rem) 4rem;
   }
 
-  .hero h1 {
-    max-width: 11ch;
-    font-size: clamp(2.2rem, 8vw, 3.2rem);
-  }
-
   .hero__meta {
     margin-top: 2.7rem;
   }
@@ -1530,6 +1548,11 @@ main {
 
   .section-heading__title {
     font-size: 2.05rem;
+  }
+
+  .section-heading__title--phrased {
+    font-size: clamp(1.7rem, 8.5vw, 2.05rem);
+    letter-spacing: 0.04em;
   }
 
   .section-heading__intro {

@@ -7,7 +7,7 @@ describe('mofumofu biyori page', () => {
     render(<App />);
 
     expect(screen.getByText('ペットサロン もふもふ日和')).toBeInTheDocument();
-    expect(screen.getByText('毎日に、もふもふ日和を。')).toBeInTheDocument();
+    expect(screen.getByRole('heading', { level: 1, name: '毎日に、もふもふ日和を。' })).toBeInTheDocument();
 
     for (const id of ['about', 'trimming', 'hotel', 'gallery', 'flow', 'news', 'access', 'reservation']) {
       expect(document.getElementById(id)).toBeInTheDocument();
